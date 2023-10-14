@@ -1,0 +1,21 @@
+.header {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(58deg, rgba(54, 195, 255, 0.25) 27.19%, rgba(56, 32, 87, 0.29) 81.02%), url('../img/header__bg.jpg') no-repeat center top / cover;
+    color: white;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+}
+
+.header__nav {
+    height: 86px;
+    color: #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.58);
+}
+
+.header__logo {
+    display: block;
+}
