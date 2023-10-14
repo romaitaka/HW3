@@ -113,12 +113,24 @@
 }
 
 .subscribe__button {
+    width: 45px;
+    height: 45px;
     text-decoration: none;
+    padding: 12px 14px 13px 11px;
+    border-radius: 100px;
+    background: #36C3FF;
+    box-shadow: 0px 0px 10px 0px rgba(111, 111, 111, 0.25);
+    cursor: pointer;
+}
+
+.subscribe__button:hover {
+    opacity: 0.8;
+    transform: scale(0.9);
 }
 
 .subscribe__button-img {
-    width: 45px;
-    height: 45px;
+    width: 20px;
+    height: 20px;
 }
 
 .footer__policy {
