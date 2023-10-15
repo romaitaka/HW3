@@ -1,6 +1,10 @@
 /* Medium: 768px - 991px */
 
 @media screen and (max-width: 991px) {
+    .body {
+        padding: 0 24px;
+    }
+
     .container {
         max-width: 720px;
     }
@@ -100,6 +104,10 @@
 /* Small: 576px - 767px */
 
 @media screen and (max-width: 767px) {
+    .body {
+        padding: 0 15px;
+    }
+
     .container {
         max-width: 450px;
     }
@@ -203,21 +211,3 @@
         width: 386px;
     }
 }
-
-/* Extra small: 0px (320px) - 575px */
-
-@media screen and (max-width: 575px) {
-    section {
-        width: 100%;
-        margin: 0;
-    }
-
-    .container {
-        width: 100%;
-    }
-
-    .header__nav {
-        width: 100%;
-    }
-
-    }
