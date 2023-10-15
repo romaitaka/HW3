@@ -5,6 +5,7 @@
     font-style: normal;
     line-height: 1.4em;
     display: flex;
+    padding-bottom: 100px;
 }
 
 .footer__wrapper {
@@ -134,7 +135,7 @@
 }
 
 .footer__policy {
-    margin: 37px 0 100px;
+    margin: 37px 0 0;
     width: 196px;
     font-size: 14px;
     font-weight: 400;
