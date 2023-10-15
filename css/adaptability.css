@@ -207,7 +207,16 @@
 /* Extra small: 0px (320px) - 575px */
 
 @media screen and (max-width: 575px) {
+    section {
+        width: 100%;
+        margin: 0;
+    }
+
     .container {
+        width: 100%;
+    }
+
+    .header__nav {
         width: 100%;
     }
 
