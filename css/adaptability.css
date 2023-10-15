@@ -203,3 +203,12 @@
         width: 386px;
     }
 }
+
+/* Extra small: 0px (320px) - 575px */
+
+@media screen and (max-width: 575px) {
+    .container {
+        width: 100%;
+    }
+
+    }
