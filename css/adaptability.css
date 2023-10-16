@@ -126,6 +126,13 @@
         max-width: 450px;
     }
 
+    .offer__text {
+    width: calc(100% - 125px);
+    }
+
+
+
+
     .menu__phone-number {
         display: block;
         /* вернуть элемент на маленьких экранах */
