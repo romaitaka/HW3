@@ -55,7 +55,7 @@
 
 .projects__about-us {
     display: flex;
-    width: 801px;
+    width: 72.7%;
     height: 282px;
     margin: 80px auto 0;
     padding: 52px 22px;
@@ -68,16 +68,17 @@
     flex-direction: column;
     align-items: center;
     gap: 25px;
-    width: 757px;
+    width: 94.6%;
     text-align: center;
 }
 
 .projects__about-us-title {
+    width: 100%;
     color: #323232;
     font-size: 19px;
     font-weight: 700;
 }
 
 .projects__about-us-text {
-    width: 625px;
+    width: 78.1%;
 }

@@ -14,11 +14,11 @@
     flex-direction: column;
     text-align: left;
     gap: 25px;
-    width: 794px;
+    width: 71.5%;
 }
 
 .offer__title {
-    width: 71.5%;
+    width: 100%;
     font-size: 48px;
     font-weight: 700;
     line-height: 1.2em;
@@ -28,5 +28,5 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 1.4em;
-    width: 340px;
+    width: 42.8%;
 }
