@@ -9,6 +9,10 @@
         max-width: 720px;
     }
 
+    .offer__title {
+        width: 79.5%;
+    }
+
     .menu__phone-number {
         display: none;
         /* Скрыть элемент на маленьких экранах */
@@ -118,6 +122,10 @@
 
     }
 
+    .offer__title {
+        max-width: 450px;
+    }
+
     .menu__phone-number {
         display: block;
         /* вернуть элемент на маленьких экранах */
@@ -215,4 +223,17 @@
         margin: 0;
         width: 386px;
     }
+
+    .section__title {
+        width: 100%;
+    }
+
+    .section__text {
+        width: 100%;
+    }
+
+    .item__text {
+        width: 239px;
+    }
+
 }
