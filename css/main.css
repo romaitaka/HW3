@@ -48,6 +48,13 @@ img {
 a {
     text-decoration: none;
     color: #fff;
+    cursor: pointer;
+}
+
+ul, li {
+    display: inline;
+	padding: 0;
+	margin: 0;
 }
 
 .container {

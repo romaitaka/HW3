@@ -13,11 +13,7 @@
 .header__nav {
     display: flex;
     align-items: center;
-    height: 86px;
+    height: 85px;
     color: #fff;
     border-bottom: 1px solid rgba(255, 255, 255, 0.58);
-}
-
-.header__logo {
-    display: block;
 }

@@ -12,7 +12,6 @@
     margin: 100px auto 0;
     display: flex;
     justify-content: space-between;
-    background: rgba(217, 217, 217, 0.3);
 }
 
 .footer__links {
@@ -27,7 +26,7 @@
 }
 
 .footer__items-wrapper {
-    margin-top: 41px;
+    margin: 41px 0 37px;
     display: flex;
     flex-direction: column;
     gap: 25px;
@@ -58,15 +57,13 @@
 }
 
 .footer__socials-wrapper {
-    margin-top: 41px;
-    height: 103px;
+    margin-top: 81px;
     display: flex;
     width: 100%;
     justify-content: space-between;
 }
 
 .footer__social {
-    margin: auto 0;
     color: #36C3FF;
     font-size: 14px;
     font-weight: 400;
@@ -87,7 +84,7 @@
 }
 
 .subscribe__form {
-    height: 45px;
+    position: relative;
     display: flex;
     border-radius: 30px;
     border: 1px solid #F2F2F2;
@@ -100,6 +97,7 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     width: 340px;
+    padding: 15px 0;
     padding-left: 33px;
 
 }
@@ -114,6 +112,9 @@
 }
 
 .subscribe__button {
+    position: absolute;
+    right: 0;
+    border: none;
     width: 45px;
     height: 45px;
     text-decoration: none;
@@ -135,8 +136,6 @@
 }
 
 .footer__policy {
-    margin: 37px 0 0;
-    width: 196px;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.58em;

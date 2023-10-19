@@ -28,8 +28,9 @@
 .services__items {
     display: flex;
     flex-wrap: wrap;
-    width: 1110px;
+    justify-content: space-between;
     margin: 78px 0;
+    row-gap: 51px;
 }
 
 .item {
@@ -38,15 +39,7 @@
     width: 508px;
     height: 144px;
     line-height: 1.4em;
-}
-
-.item:nth-child(2n+1) {
-    margin-right: 94px;
-}
-
-.item:nth-child(3),
-.item:nth-child(4) {
-    margin-top: 51px;
+    align-items: center;
 }
 
 .item__img {
@@ -60,7 +53,6 @@
     flex-direction: column;
     gap: 15px;
     width: 268px;
-    margin: 14px 0 35px;
     text-align: left;
 }
 
