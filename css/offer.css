@@ -14,7 +14,7 @@
     flex-direction: column;
     text-align: left;
     gap: 25px;
-    width: 71.5%;
+    width: 794px;
 }
 
 .offer__title {
@@ -28,5 +28,5 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 1.4em;
-    width: 42.8%;
+    width: 340px;
 }
