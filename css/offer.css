@@ -1,7 +1,7 @@
 .offer-wrapper {
     display: flex;
     flex-direction: column;
-    margin: 123px 0 70px;
+    margin-top: 123px;
     align-items: flex-start;
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;

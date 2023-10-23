@@ -5,6 +5,14 @@
         max-width: 720px;
     }
 
+    .container_flex {
+        justify-content: space-between;
+    }
+
+    .menu {
+        margin: 0;
+    }
+
     .offer__title {
         width: 100%;
     }
@@ -68,12 +76,21 @@
         padding: 218px 0 109px;
     }
 
-    .video__wrapper {
+    .video__container {
+        margin: 0 auto;
         width: 720px;
+        padding-bottom: 62px;
+        border-bottom: 1px solid #E0E0E0;
     }
 
+
     .video-frame-wrapper {
+        width: 100%;
         height: 369px;
+    }
+
+    .video-frame {
+        width: 720px;
     }
 
     .footer {
@@ -164,15 +181,16 @@
         width: 100%;
     }
 
-    .video__wrapper {
+    .video__container {
         width: 450px;
     }
 
     .video-frame-wrapper {
-        height: 450px;
+        width: 100%;
     }
 
-    .video__title {
+    .video-frame {
+        height: 231px;
         width: 100%;
     }
 

@@ -1,5 +1,4 @@
 .video {
-    /* margin-top: 148px; */
     padding: 254px 0 103px;
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
@@ -8,12 +7,8 @@
     color: #000;
 }
 
-.video__wrapper {
+.video__container {
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
     width: 830px;
     padding-bottom: 62px;
     border-bottom: 1px solid #E0E0E0;
@@ -35,17 +30,13 @@
 
 .video-frame-wrapper {
     box-sizing: content-box;
-    /* overflow: hidden; */
-    width: 100%;
+    overflow: hidden;
+    width: 830px;
     height: 426px;
-    /* padding-bottom: 62px; */
-    /* border-bottom: 1px solid #E0E0E0; */
 }
 
 .video-frame {
     display: block;
-    /* width: inherit; */
     margin: 0 auto;
     border-radius: 10px;
-    /* height: inherit; */
 }

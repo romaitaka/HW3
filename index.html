@@ -22,13 +22,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header class="header">
-        <div class="header__nav">
+        <div class="nav">
             <div class="container container_flex">
-                <a href="" class="logo"></a>
+                <a href="#" class="logo"></a>
                 <nav class="menu">
-                    <ul class="menu_list">
+                    <ul class="menu__list ">
                         <li class="menu__item menu__item_active">
                             <a href="#">
                                 Главная
@@ -51,7 +52,8 @@
                         </li>
                         <li class="menu__item">
                             <a href="#">
-                                Контакты</a>
+                                Контакты
+                            </a>
                         </li>
                     </ul>
                 </nav>
@@ -186,20 +188,18 @@
         </div>
     </section>
     <section class="video">
-        <div class="container">
-            <div class="video__wrapper">
-                <h2 class="video__title">
-                    У нас есть для вас видео
-                </h2>
-                <p class="video_text">
-                    Познакомьтесь с нашим оборудованием - Система мобильного сканирования Topcon IP-S3
-                </p>
-                <div class=".video-frame-wrapper">
-                    <iframe class="video-frame" width="830" height="426" src="https://www.youtube.com/embed/RPc4AzNC-hc"
-                        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen>
-                    </iframe>
-                </div>
+        <div class="video__container">
+            <h2 class="video__title">
+                У нас есть для вас видео
+            </h2>
+            <p class="video_text">
+                Познакомьтесь с нашим оборудованием - Система мобильного сканирования Topcon IP-S3
+            </p>
+            <div class=".video-frame-wrapper">
+            <iframe class="video-frame" width="830" height="426" src="https://www.youtube.com/embed/RPc4AzNC-hc"
+                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
             </div>
         </div>
     </section>
