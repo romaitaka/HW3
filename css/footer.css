@@ -44,7 +44,7 @@
 }
 
 .footer__item-text {
-    width: 225px;
+    /* width: 225px; */
     font-size: 14px;
     font-weight: 400;
     line-height: 1.58em;
