@@ -142,7 +142,7 @@
     }
 
     .offer__text {
-        width: calc(100% - 125px);
+        width: 60%;
     }
 
     .menu__phone-number {
@@ -195,7 +195,6 @@
 
     .projects__about-us {
         padding: 52px 23px;
-        /* width: 90%; */
     }
 
     .projects__text-container {
@@ -251,9 +250,11 @@
         width: 100%;
     }
 
-    .item__text {
-        width: 239px;
+
+    .item__column {
+        width: 45%;
     }
+
 }
 
 /* Extra small: 451px - 575px */
@@ -264,9 +265,33 @@
         width: auto;
     }
 
+    .container_column {
+        align-items: center;
+    }
+
+    .menu__phone-number {
+        display: none;
+        /* Скрыть элемент на маленьких экранах */
+    }
+
+    .offer {
+        width: 70%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .offer__title {
+        font-size: 25px;
+    }
+
+    .offer__text {
+        width: 100%;
+    }
+
     .video__container {
         padding: 0 15px;
-        padding-bottom: 62px;
+        /* padding-bottom: 62px; */
+        border-bottom: none;
         width: auto;
     }
 
@@ -275,11 +300,102 @@
     }
 
     .video-frame {
-        width: 421px;
+        width: 420px;
         height: 231px;
     }
 
+    .item {
+        width: 420px;
+    }
+
     .item__column {
-        width: 45%;
+        width: 40%;
+    }
+
+    .section__title {
+        width: 65%;
+    }
+
+    .section__text {
+        width: 65%;
+    }
+
+    .item__img {
+        width: 35%;
+    }
+
+    .footer__socials {
+        display: none;
+    }
+
+    .footer__subscribe {
+        display: none;
+    }
+
+    .footer {
+        padding-bottom: 70px;
+    }
+
+    .footer__wrapper {
+        margin-top: 70px;
+    }
+
+    .logo {
+        margin: 15px 0;
+    }
+}
+
+/* 0px (320px) - 450px */
+@media (max-width: 450px) {
+    .container {
+        padding: 0 10px;
+        max-width: 300px;
+    }
+
+    .container_column {
+        max-width: 300px;
+    }
+
+    .offer {
+        max-width: 280px;
+    }
+
+    .offer__title {
+        width: auto;
+    }
+
+    .offer__text {
+        width: auto;
+    }
+
+    .item {
+        width: 300px;
+    }
+
+    .projects__item {
+        max-width: 280px;
+    }
+
+
+    .video {
+        padding-top: 300px;
+    }
+
+    .video-frame {
+        max-width: 280px;
+        height: 231px;
+    }
+
+    .services__items {
+        max-width: 320px;
+    }
+
+    .item__img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .item__column {
+        gap: 10px;
     }
 }
