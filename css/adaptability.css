@@ -171,6 +171,7 @@
 
     .projects__about-us {
         padding: 52px 23px;
+        /* width: 90%; */
     }
 
     .projects__text-container {
@@ -178,7 +179,7 @@
     }
 
     .projects__about-us-text {
-        width: 100%;
+        width: 90%;
     }
 
     .video__container {
