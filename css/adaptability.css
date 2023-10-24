@@ -1,8 +1,12 @@
-/* Medium: 768px - 991px */
-
-@media screen and (max-width: 991px) {
+/* Large: 992px - 1199px */
+@media (max-width: 1199px) {
     .container {
-        max-width: 720px;
+        max-width: 960px;
+    }
+
+    .menu__phone-number {
+        display: none;
+        /* Скрыть элемент на маленьких экранах */
     }
 
     .container_flex {
@@ -13,13 +17,25 @@
         margin: 0;
     }
 
-    .offer__title {
-        width: 100%;
+    .projects__items {
+        gap: 38px;
     }
 
-    .menu__phone-number {
-        display: none;
-        /* Скрыть элемент на маленьких экранах */
+}
+
+/* Medium: 768px - 991px */
+
+@media screen and (max-width: 991px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .menu__item a {
+        padding: 31px 20px;
+    }
+
+    .offer__title {
+        width: 100%;
     }
 
     .offer-wrapper {
@@ -44,7 +60,6 @@
     .section__text {
         width: 561px;
     }
-
 
     .services__content-wrapper {
         margin: 100px 0;
@@ -83,7 +98,6 @@
         border-bottom: 1px solid #E0E0E0;
     }
 
-
     .video-frame-wrapper {
         width: 100%;
         height: 369px;
@@ -119,9 +133,12 @@
         max-width: 450px;
     }
 
+    .offer__title {
+        font-size: 36px;
+    }
+
     .menu {
         display: none;
-
     }
 
     .offer__text {
@@ -144,8 +161,16 @@
         width: 185.61px;
     }
 
+    .section__title {
+        font-size: 28px;
+    }
+
     .section__text {
-        margin: 28px 0 0;
+        margin-top: 28px;
+    }
+
+    .video_text {
+        margin-bottom: 54px;
     }
 
     .projects {
@@ -160,7 +185,6 @@
         flex-direction: column;
         align-items: center;
     }
-
 
     .projects__about_us__numbers {
         display: flex;
@@ -186,18 +210,17 @@
     }
 
     .video-frame-wrapper {
-        width: 100%;
+        width: inherit;
     }
 
     .video-frame {
+        width: 450px;
         height: 231px;
-        width: 100%;
     }
 
     .video_text {
         width: 100%;
     }
-
 
     .footer {
         padding-bottom: 100px;
@@ -230,5 +253,32 @@
     .item__text {
         width: 239px;
     }
+}
 
+/* Extra small: 451px - 575px */
+
+@media (max-width: 575px) {
+    .container {
+        padding: 0 15px;
+        width: auto;
+    }
+
+    .video__container {
+        padding: 0 15px;
+        padding-bottom: 62px;
+        width: auto;
+    }
+
+    .video-frame-wrapper {
+        width: inherit;
+    }
+
+    .video-frame {
+        width: 421px;
+        height: 231px;
+    }
+
+    .item__column {
+        width: 45%;
+    }
 }
