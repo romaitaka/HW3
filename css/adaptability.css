@@ -349,7 +349,7 @@
 /* 0px (320px) - 450px */
 @media (max-width: 450px) {
     .container {
-        padding: 0 10px;
+        padding: 0 5px;
         max-width: 300px;
     }
 
