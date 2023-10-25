@@ -5,6 +5,7 @@
 @import url('video.css');
 @import url('footer.css');
 @import url('adaptability.css');
+@import url('animation.css');
 
 * {
     box-sizing: border-box;
