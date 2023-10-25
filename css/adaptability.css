@@ -21,6 +21,10 @@
         gap: 38px;
     }
 
+    .projects__about-us-text {
+        max-width: 90%;
+    }
+
 }
 
 /* Medium: 768px - 991px */
@@ -83,7 +87,6 @@
     }
 
     .projects__about-us {
-        width: 90%;
         padding: 52px 47px;
     }
 
