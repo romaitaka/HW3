@@ -7,6 +7,25 @@
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     padding-bottom: 70px;
+    animation: backgroundChange 15s linear infinite;
+}
+
+@keyframes backgroundChange {
+    0% {
+        background: linear-gradient(58deg, rgba(54, 195, 255, 0.25) 27.19%, rgba(56, 32, 87, 0.29) 81.02%), url('../img/header__bg.jpg') no-repeat center top / cover;
+    }
+
+    33% {
+        background: linear-gradient(58deg, rgba(54, 195, 255, 0.25) 27.19%, rgba(56, 32, 87, 0.29) 81.02%), url('../img/header__bg2.jpg') no-repeat center top / cover;
+    }
+
+    66% {
+        background: linear-gradient(58deg, rgba(54, 195, 255, 0.25) 27.19%, rgba(56, 32, 87, 0.29) 81.02%), url('../img/header__bg3.jpg') no-repeat center top / cover;
+    }
+
+    100% {
+        background: linear-gradient(58deg, rgba(54, 195, 255, 0.25) 27.19%, rgba(56, 32, 87, 0.29) 81.02%), url('../img/header__bg.jpg') no-repeat center top / cover;
+    }
 }
 
 .nav {
