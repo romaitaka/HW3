@@ -369,16 +369,16 @@
         /* Скрыть элемент на маленьких экранах */
     }
 
-    */ .offer {
-        max-width: 280px;
+    .offer {
+        width: 100%;
     }
 
     .offer__title {
-        width: auto;
+        width: 100%;
     }
 
     .offer__text {
-        width: auto;
+        width: 100%;
     }
 
     .item {
@@ -387,7 +387,8 @@
     }
 
     .projects__item {
-        max-width: 265px;
+        width: 100%;
+        height: auto;
     }
 
 
@@ -396,8 +397,10 @@
     }
 
     .video-frame {
-        max-width: 280px;
-        height: 231px;
+        /* max-width: 280px;
+        height: 231px; */
+        max-width: 100%;
+        height: auto;
     }
 
     .services__items {
@@ -419,6 +422,10 @@
     }
 
     .section__text {
+        width: 100%;
+    }
+
+    .projects__text-container {
         width: 100%;
     }
 }
